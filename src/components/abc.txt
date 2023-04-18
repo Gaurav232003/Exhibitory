@@ -1,0 +1,71 @@
+/* CompetitionPage.acss */
+.acompetition-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.acompetition-page-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.acompetition-page-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.acompetition-page-info {
+  margin-bottom: 24px;
+}
+
+.acompetition-page-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.acompetition-page-table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.acompetition-page-table td:first-child {
+  width: 150px;
+  font-weight: bold;
+}
+
+.acompetition-page-submit {
+  display: none; /* Hide the submit button */
+}
+
+.acompetition-page-participants {
+  max-height: 400px; /* Update to your desired height */
+  overflow-y: auto; /* Add scroll to the container if needed */
+}
+
+.acompetition-page-card {
+  flex-basis: 100%; /* Change to 100% to make each participant in a different line */
+  margin-bottom: 16px; /* Add margin to create space between participants */
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.acompetition-page-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.acompetition-page-card-description {
+  font-size: 14px;
+  color: #666;
+}

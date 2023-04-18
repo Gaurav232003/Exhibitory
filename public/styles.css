@@ -1,0 +1,1574 @@
+/* CompetitionPage.acss */
+/* Add this CSS to your styles */
+
+
+
+.acompetition-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.acompetition-page-container {
+  height: 100%;
+  max-width: 800px;
+  width: 100%;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.acompetition-page-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.acompetition-page-info {
+  margin-bottom: 24px;
+}
+
+.acompetition-page-table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 200px;
+}
+
+.acompetition-page-table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.acompetition-page-table td:first-child {
+  width: 150px;
+  font-weight: bold;
+}
+
+.acompetition-page-submit {
+  display: none; /* Hide the submit button */
+}
+
+.acompetition-page-participants {
+  max-height: 400px; /* Update to your desired height */
+  overflow-y: auto; /* Add scroll to the container if needed */
+}
+
+.acompetition-page-card {
+  flex-basis: 100%; /* Change to 100% to make each participant in a different line */
+  margin-bottom: 16px; /* Add margin to create space between participants */
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.acompetition-page-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.acompetition-page-card-description {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* LoginPage.css */
+
+.login-container {
+  background-color: #008990;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.login-title {
+  font-size: 2rem;
+  color: #008990;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  background-color: #008990;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0087ac;
+}
+
+.login-footer {
+  background-color: #000000;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.login-footer-text {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* RegistrationPage.css */
+
+.registration-container {
+  background-color: #008990;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-card {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-title {
+  font-size: 2rem;
+  color: #008990;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #008990;
+}
+
+.registration-button {
+  background-color: #008990;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.registration-button:hover {
+  background-color: #00676d;
+}
+
+
+/* ProfilePage.css */
+
+.profile-container {
+  background-color: #008990;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info-container {
+  max-width: 400px;
+  padding: 20px;
+  text-align: left; /* updated text alignment */
+}
+
+.profile-title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.profile-info-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-info-item {
+  margin-bottom: 10px;
+  color: #e6f1f6;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.profile-info-label {
+  font-weight: bold;
+}
+
+.profile-info-value {
+  margin-left: 5px;
+}
+
+.profile-footer {
+  background-color: #000000;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.profile-nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.profile-nav-item {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.profile-nav-item:hover {
+  opacity: 0.8;
+}
+
+
+.lcontest{
+  color: white;
+  font-family: Fredoka;
+}
+
+.tabledata{
+  color: white;
+  font-family: Fredoka;
+}
+
+
+.table{
+  text-algin: center;
+}
+
+
+.col-c1{
+  background-color: #800000;
+}
+
+.col-c2{
+  background-color: #008080;
+}
+
+
+.col-c3{
+  background-color: #FFA500;
+}
+
+
+.col-c4{
+  background-color: #008000;
+}
+
+
+.box-desc1{
+  background-color: #800000;
+}
+
+
+.box-desc2{
+  background-color: #008080;
+}
+
+.box-desc3{
+  background-color: #FFA500;
+}
+
+.box-desc4{
+  background-color: #008000;
+}
+
+
+
+
+
+
+
+#root{
+  background-color: black;
+  text-align : center;
+  font-family: Fredoka;
+}
+
+.name{
+  margin-top: 10px;
+  color : white;
+}
+
+.intro{
+    color : white;
+    background-color : black;
+}
+
+.logo{
+    width: 40px;
+    height: 35px;
+}
+
+.login-text{
+  padding : 17%;
+  height : 100vh;
+  width : 100vw;
+  font-size : 50px;
+}
+
+.login-img{
+  height: 180px;
+  padding: 2%;
+}
+
+.img-row-1{
+  padding-top: 140px;
+}
+
+.img-row-2{
+  padding-top: 40px;
+}
+
+.box-desc{
+  padding: 5%;
+  width : 100vw;
+  font-size : 20px;
+}
+
+
+.secondpage-row{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.box {
+  position: relative;
+  margin-bottom: 1.5rem;
+  background-color: #ffb0ca;
+  margin-top: 18px;
+  -o-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+.box1{
+  position: relative;
+  margin-bottom: 1.5rem;
+  background-color: #ffb0ca;
+  margin-top: 18px;
+  -o-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+.box2{
+  position: relative;
+  margin-bottom: 1.5rem;
+  background-color: rgba(148, 179, 253, 1);
+  margin-top: 18px;
+  -o-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.box3{
+  position: relative;
+  margin-bottom: 1.5rem;
+  background-color: rgba(246, 234, 190, 1);
+  margin-top: 18px;
+  -o-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.box4{
+  position: relative;
+  margin-bottom: 1.5rem;
+  background-color: #96C7C1;
+  margin-top: 18px;
+  -o-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.box-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Fredoka;
+}
+
+
+.fiirstpa-ebutton-fiirstpa-ebutton {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .fiirstpa-ebutton-rectangle1 {
+    top: 7px;
+    left: 13px;
+    width: 47px;
+    height: 41px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-text {
+    left: 68px;
+    color: rgba(255, 255, 255, 1);
+    width: 236px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Regular;
+    text-align: left;
+    font-family: Fredoka;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .fiirstpa-ebutton-text02 {
+    /* top: 250px;
+    left: 730px; */
+    color: rgba(255, 255, 255, 1);
+    /* width: 548px; */
+    height: auto;
+    /* position: absolute; */
+    font-size: 50px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .fiirstpa-ebutton-pngwing1 {
+    top: 183px;
+    left: 53px;
+    width: 746px;
+    height: 537px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-text04 {
+    top: 22px;
+    left: 1278px;
+    color: rgba(255, 255, 255, 1);
+    width: 99px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Fredoka;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .fiirstpa-ebutton-text06 {
+    top: 22px;
+    left: 1095px;
+    color: rgba(255, 255, 255, 1);
+    width: 71px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Fredoka;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .fiirstpa-ebutton-text08 {
+    top: 22px;
+    left: 1186px;
+    color: rgba(255, 255, 255, 1);
+    width: 71px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Fredoka;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .fiirstpa-ebutton-artist1 {
+    top: 250px;
+    left: 113px;
+    width: 146px;
+    height: 136px;
+    
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-musician1 {
+    top: 250px;
+    left: 501px;
+    width: 126px;
+    height: 136px;
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-sculptor1 {
+    top: 115px;
+    left: 321px;
+    width: 136px;
+    height: 136px;
+
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-casting1 {
+    top: 439px;
+    left: 203px;
+    width: 136px;
+    height: 136px;
+    border-color: transparent;
+  }
+  .fiirstpa-ebutton-dance1 {
+    top: 439px;
+    left: 433px;
+    width: 136px;
+    height: 136px;
+    border-color: transparent;
+  }
+  /* .fiirstpa-ebutton-frame1button {
+    top: 507px;
+    left: 740px;
+    width: 148px;
+    height: 48px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  } */
+  .fiirstpa-ebutton-rectangle3 {
+    top: 0px;
+    left: 0px;
+    width: 148px;
+    height: 48px;
+    position: absolute;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  }
+  .fiirstpa-ebutton-text10 {
+    color: rgba(255, 255, 255, 1);
+    width: 148px;
+    height: auto;
+    /* position: absolute; */
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Fredoka;
+    font-weight: 600;
+    line-height: 25px;
+    font-stretch: normal;
+    text-decoration: none;
+
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: purple;
+    cursor: pointer;
+  }
+
+
+  /*S2 */
+
+  .second-second {
+    width: 100%;
+    height: 1556px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .second-rectangle1 {
+    top: 5px;
+    left: 6px;
+    width: 47px;
+    height: 41px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .second-text {
+    left: 68px;
+    color: rgba(255, 255, 255, 1);
+    width: 236px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Regular;
+    text-align: left;
+    font-family: Fredoka;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-text02 {
+    top: 22px;
+    left: 1278px;
+    color: rgba(255, 255, 255, 1);
+    width: 99px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Light;
+    text-align: left;
+    font-family: Fredoka;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-text04 {
+    top: 22px;
+    left: 1186px;
+    color: rgba(255, 255, 255, 1);
+    width: 71px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Fredoka;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-frame6 {
+    top: 74px;
+    left: 144px;
+    width: 1223px;
+    height: 1226px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .second-rectangle6 {
+    top: 0px;
+    left: 0px;
+    width: 1223px;
+    height: 280px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 26px;
+  }
+  .second-rectangle7 {
+    top: 314px;
+    left: 0px;
+    width: 1223px;
+    height: 280px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 26px;
+  }
+  .second-rectangle9 {
+    top: 628px;
+    left: 0px;
+    width: 1223px;
+    height: 280px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 26px;
+  }
+  .second-rectangle10 {
+    top: 942px;
+    left: 0px;
+    width: 1223px;
+    height: 280px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 26px;
+  }
+  .second-rectangle8 {
+    top: 0px;
+    left: 0px;
+    width: 1223px;
+    height: 280px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 26px;
+  }
+  .second-group1 {
+    /* top: 3px;
+    left: 2px; */
+    width: 548px;
+    height: 274px;
+    display: flex;
+    padding: 0;
+    /* position: absolute; */
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 196, 225, 1);
+  }
+  .second-sculpture1 {
+    /* top: 9px;
+    left: 139px; */
+  
+    width: 274px;
+    height: 274px;
+    opacity: 0.65;
+    /* position: absolute; */
+    border-color: transparent;
+  }
+  .second-text06 {
+    top: 92px;
+    left: 74px;
+    color: rgba(255, 255, 255, 1);
+    width: 403px;
+    height: auto;
+    position: absolute;
+    font-size: 56px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 25px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-group3 {
+    top: 631px;
+    left: 2px;
+    width: 548px;
+    height: 274px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(246, 234, 190, 1);
+  }
+  .second-karaoke1 {
+    top: 638px;
+    left: 160px;
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .second-text08 {
+    top: 707px;
+    left: 110px;
+    color: rgba(255, 255, 255, 1);
+    width: 403px;
+    height: auto;
+    position: absolute;
+    font-size: 56px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 25px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-group2 {
+    top: 317px;
+    left: 2px;
+    width: 548px;
+    height: 274px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(148, 179, 253, 1);
+  }
+  .second-dance11 {
+    top: 324px;
+    left: 139px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .second-text10 {
+    top: 401px;
+    left: 74px;
+    color: rgba(255, 255, 255, 1);
+    width: 403px;
+    height: auto;
+    position: absolute;
+    font-size: 56px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 25px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .second-rectangle4 {
+    top: 945px;
+    left: 2px;
+    width: 548px;
+    height: 274px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 25px;
+  }
+  .second-canvas1 {
+    top: 952px;
+    left: 166px;
+    width: 274px;
+    height: 274px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .second-text12 {
+    top: 1033px;
+    left: 88px;
+    color: rgba(255, 255, 255, 1);
+    width: 403px;
+    height: auto;
+    position: absolute;
+    font-size: 56px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 25px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  
+
+  .music-small-card {
+    width: 200px;
+    background-color: #008080;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .music-small-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+   
+  }
+  
+  .music-small-card-info {
+    font-size: 0.8rem;
+    color: white;
+  }
+
+
+  .music-page {
+    background-color: black;
+    padding: 2rem;
+  }
+  
+  .music-page-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Fredoka';
+  }
+  
+  .music-page-card {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .music-page-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .music-page-card-scrollable {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 1rem;
+  }
+  
+  .music-small-card {
+    min-width: 200px; /* Set a minimum width for small cards */
+    background-color: #008080;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-right: 1rem;
+    font-family: 'Fredoka';
+  }
+
+  .music-small-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+
+
+
+  /*ID css*/
+
+#login{
+  padding : 2%;
+}
+
+
+
+body {
+  font-family: 'Fredoka';
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+th {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px 15px;
+}
+
+
+tr:last-child {
+  border-bottom: 2px solid #009879;
+}
+
+
+tr.active {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+.competition-page {
+  background-color: #f8f8f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.competition-page-container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.competition-page-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.competition-page-info {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.competition-page-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.competition-page-table tbody tr td:first-child {
+  font-weight: bold;
+}
+
+.competition-page-table td {
+  padding: 5px 0;
+}
+
+.competition-page-submit {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.competition-page-submit:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) { /* for tablets */
+  .login-img {
+    height: 120px;
+    padding: 3%;
+  }
+  .fiirstpa-ebutton-text02 {
+    font-size: 40px;
+  }
+  .competition-page-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) { /* for phones */
+  .login-img {
+    height: 80px;
+    padding: 4%;
+  }
+  .fiirstpa-ebutton-text02 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-text {
+    font-size: 1.5rem;
+  }
+}
+
+.video-list-item {
+  position: relative; /* Set the list item as the relative positioning context */
+}
+
+.vote-button {
+  position: absolute;
+  top: 40%;
+  right: 17%;
+  z-index: 1;
+  margin: 10px;
+  padding: 8px 12px;
+  background-color: black; /* Set the background color of the vote button */
+  color: #fff; /* Set the text color of the vote button */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.charity-charity {
+  width: 100%;
+  height: 1785px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 1);
+}
+.charity-group5 {
+  top: 140px;
+  left: 0px;
+  width: 1440px;
+  height: 65.7703857421875px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.charity-text {
+  color: rgba(249, 226, 175, 1);
+  width: 1440px;
+  height: auto;
+  position: absolute;
+  font-size: 59px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 600;
+  line-height: 25px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.charity-logo {
+  top: 18px;
+  left: 682px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.charity-text2 {
+  top: 263px;
+  left: 91px;
+  color: rgba(255, 255, 255, 1);
+  width: 1258px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.charity-text4 {
+  top: 1159px;
+  left: 456px;
+  color: rgba(255, 255, 0, 1);
+  width: 528px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.charity-text6 {
+  top: 754px;
+  left: 456px;
+  color: rgba(255, 255, 0, 1);
+  width: 528px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset;
+  resize: vertical;
+  font-size: 16px;
+  height : 70px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.bcomprtition-page {
+  background-color: #f8f8f8;
+  padding: 32px;
+}
+
+.bcomprtition-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bcomprtition-page-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.bcomprtition-page-details {
+  margin-bottom: 16px;
+}
+
+.bcomprtition-page-table {
+  width: 100%;
+  font-size: 16px;
+}
+
+.bcomprtition-page-table td {
+  padding: 8px;
+  text-align: left; /* Align text to the left */
+}
+
+.bcomprtition-page-winners-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.bcomprtition-page-winners-list {
+  margin-top: 16px;
+}
+
+.bcomprtition-page-winner {
+  margin-bottom: 8px;
+}
+
+.bcomprtition-page-winner-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bcomprtition-page-winner-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.charity-charity {
+  width: 100%;
+  height: 1785px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 1);
+}
+.charity-group5 {
+  top: 140px;
+  left: 0px;
+  width: 1440px;
+  height: 65.7703857421875px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.charity-text {
+  color: rgba(249, 226, 175, 1);
+  width: 1440px;
+  height: auto;
+  position: absolute;
+  font-size: 59px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 600;
+  line-height: 25px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.charity-logo {
+  top: 18px;
+  left: 682px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.charity-text2 {
+  top: 263px;
+  left: 91px;
+  color: rgba(255, 255, 255, 1);
+  width: 1258px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.charity-text4 {
+  top: 1159px;
+  left: 456px;
+  color: rgba(255, 255, 0, 1);
+  width: 528px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.charity-text6 {
+  top: 754px;
+  left: 456px;
+  color: rgba(255, 255, 0, 1);
+  width: 528px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Fredoka;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset;
+  resize: vertical;
+  font-size: 16px;
+  height : 70px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,40 @@
+.charity-proposal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+    max-width: 100%;
+    overflow: hidden; /* Add overflow hidden to prevent text overflow */
+  }
+  
+  .charity-proposal-card {
+    color: black;
+    width: 600px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: small;
+    font-family:serif;
+    word-wrap: break-word; /* Add word-wrap to prevent words from overflowing */
+  }
+  
+  .charity-proposal-form {
+    margin-top: 30px;
+    max-width: 100%;
+    overflow: hidden; /* Add overflow hidden to prevent text overflow */
+  }
+  
+  .charity-proposal-form textarea {
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    height: 120px;
+    margin-bottom: 16px;
+  }
+  
