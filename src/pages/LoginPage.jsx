@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"; // Import Link and useHist
 import firebase from "firebase/compat/app"; // Import the specific Firebase app module
 import "firebase/compat/auth"; // Import the Firebase Auth module
 import "firebase/compat/database";
-import competitionsData from "/home/gaurav/Downloads/layer3/layer/src/components/competitionsData.js";
+import competitionsData from "../components/competitionsData";
 
     
 // Add your Firebase configuration
